@@ -53,10 +53,21 @@ etiquetaTitulo.classList.add("text-center")
 
 //TIENDA
 
-let nombreProducto = "lente sigma"
-let precioProducto = 4000000
-let descripcionProducto = "lente sigma 35mm"
+let productosNombre=["lente sigma", "camara leica"]
+let productosPrecio = [4000, 15000]
+let productoDescripcion =["lente sigma 35mm", "camara tipo vintage leica"]
+let productosPromocion =[true, false]
+let nombres = Array("lente sigma", "camara leica")
 
-let nombreProducto2 = "camara leica"
-let precioProducto2 = 15000000
-let descripcionProducto2 = "camara tipo vintage leica"
+console.log(productosNombre[0])
+console.log(nombres[0])
+
+//creando objetos con JS
+let usuario ={
+    nombre : "el papi riquis",
+    edad: 48,
+    amigos:["no tengo", "no tengo2", "no tengo 3"]
+}
+console.log(usuario)
+//imprimir un solo atributo
+console.log(usuario.amigos[1])
